@@ -1,6 +1,6 @@
 # Spectrum Watcher
 
-![Logo](https://github.com/mwalczyk/spectrum_watcher_rs/blob/master/logo.png)
+![Logo](https://github.com/mwalczyk/spectrum_watcher_rs/blob/master/Logo.png)
 
 Spectrum Watcher is a work-in-progress process monitoring service for
 running installations. Build with `cargo build --release`. After adding
