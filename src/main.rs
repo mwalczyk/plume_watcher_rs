@@ -9,23 +9,6 @@ fn help_dialog() {
     spectrum_watcher_rs path/to/program.exe");
 }
 
-/// Launches a child process at the specified path from the
-/// specified directory.
-fn launch_process(path: &str, current: Option<&str>) {
-    print!("launching: {} from directory: {:?}", path, current);
-
-    let mut command = Command::new(Path::new(path));
-
-    if let Some(c) = current {
-        command.current_dir(Path::new(c));
-    }
-
-    if let Ok(mut child) = command.spawn() {
-        child.wait().expect("command wasn't running");
-        println!("child process {} exited successfully", child.id());
-    }
-}
-
 static MAX_THREADS: i32 = 10;
 
 struct Config {
