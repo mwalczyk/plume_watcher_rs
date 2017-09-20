@@ -1,6 +1,6 @@
 [package]
-name = "spectrum_watcher_rs"
+name = "plume_watcher_rs"
 version = "0.1.0"
-authors = ["Michael Walczyk <michael.walczyk@obscuradigital.com>"]
+authors = ["Michael Walczyk <mwalczyk2@gmail.com>"]
 
 [dependencies]

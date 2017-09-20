@@ -6,7 +6,7 @@ use std::env;
 /// If the user enters an invalid command, print some instructions.
 fn help_dialog() {
     println!("usage:
-    spectrum_watcher_rs path/to/program.exe");
+    plume_watcher_rs path/to/program.exe");
 }
 
 static MAX_THREADS: i32 = 10;
