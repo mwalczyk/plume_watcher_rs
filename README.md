@@ -1,6 +1,8 @@
 # Plume Watcher
 
-![Logo](https://github.com/mwalczyk/plume_watcher_rs/blob/master/logo.png)
+<p align="center">
+  <img src="https://github.com/mwalczyk/VulkanToolkit/blob/master/logo.svg" alt="plume logo" width="400" height="auto"/>
+</p>
 
 A work-in-progress process monitoring service for
 running installations. Build with `cargo build --release`. After adding
